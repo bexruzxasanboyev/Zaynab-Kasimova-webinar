@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risolat Umidovna</title>
+    <style>
+     * { margin: 0; padding: 0; box-sizing: border-box; } body { background-color: black; } .container { max-width: 440px; width: 100%; margin: 0 auto; padding: 0 10px; padding-top: 18px; } #main-content { position: relative; } .header { border: 1px solid #FFFFFF; border-radius: 7px; padding: 7px 10px; font-family: Inter, sans-serif; max-width: 171px; width: 100%; margin-right: auto; margin-left: auto; position: relative; z-index: 10; font-weight: 500; font-size: 14px; line-height: 100%; text-align: center; margin-bottom: 16px; } .header__box { display: flex; align-items: center; justify-content: center; gap: 5px; } .header__text { font-family: Inter, sans-serif; font-weight: 500; font-size: 14px; line-height: 100%; text-align: center; color: white; } .title { font: 600 clamp(42px, 12.9vw, 54px) / 110% "Zuume", sans-serif; text-transform: uppercase; color: white; position: relative; z-index: 1; text-align: center; margin-bottom: 8px; } .title span { color: #E82C2C; } .expert__img { object-fit: contain; max-width: clamp(275px, 80vw, 332px); width: 100%; height: auto; position: relative; z-index: 15; display: flex; flex-direction: column; align-items: center; margin: 0 auto; } .gradinet { max-width: 213px; width: 100%; height: 213px; background-color: #FF2C2C99; position: absolute; top: 480px; z-index: 10; left: 44%; transform: translateY(-44%); filter: blur(60px) } .speaker__bg { background-image: url(./images/bg.avif); background-repeat: no-repeat; background-position: center; background-size: cover; max-width: 430px; width: 100%; height: clamp(600px, 172vw, 698px); position: absolute; top: 0; left: 50%; transform: translateX(-50%); } .speaker__bgs { background-image: url(./images/flag.avif); background-repeat: no-repeat; background-position: center; background-size: cover; max-width: 638px; width: 100%; height: 383px; z-index: 1; position: absolute; top: 211px; left: 50%; transform: translateX(-50%); } .timer { font-family: Zuume, sans-serif; font-weight: 600; font-size: 54px; line-height: 110%; text-transform: uppercase; margin-bottom: 4px; padding-top: 24px; text-align: center; color: white; } .event__btn { background: linear-gradient(90deg, #FF2C2C 0%, #FF5B5B 50%, #FF2C2C 100%); box-shadow: 0px 4px 0px 0px #FF2323; box-shadow: 0px 2px 3px 1px #FFFFFF40 inset; border-radius: 12px; border: none; cursor: pointer; max-width: 388px; width: 100%; padding: 35px 0; display: flex; align-items: center; justify-content: center; font-family: Zuume, sans-serif; font-weight: 700; font-size: clamp(30px, 9vw, 38px); line-height: 100%; letter-spacing: 10%; color: white; margin-left: auto; margin-right: auto; margin-top: -5px; position: relative; z-index: 21; margin-bottom: 5px; } .speaker__images { max-width: 325px; width: 100%; height: auto; } .event__btn img { margin-top: -4px; } .shaddow { position: absolute; z-index: 20; left: 53%; transform: translateX(-53%); max-width: 179px; height: auto; top: -30px; } @media (max-width:400px) { .speaker__bgs { top: 180px; } .gradinet { left: 28%; height: 150px; transform: translateY(-44%); } }
+    </style>
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/modal.css" />
+    </noscript>
+
+<body>
+    <main id="main-content">
+        <div class="wrapper">
+            <div class="container">
+                <div class="header">
+                    <p class="header__text">
+                        10-11-12-Aprel | 20:00
+                    </p>
+                </div>
+                <h1 class="title">
+                    <span>0 dan razgovorgacha</span> <br>
+                    rus tilida gapirishning <br> 7 ta texnikasi
+                </h1>
+
+                <img src="./images/speaker.avif" alt="Investor rasmi" class="expert__img" decoding="async"
+                    loading="lazy" width="332" height="341">
+                <div class="gradinet"></div>
+                <div class="speaker__bg"></div>
+                <div class="speaker__bgs"></div>
+
+                <div class="webinar-cta" style="position: relative;">
+                    <button class="event__btn" type="button">
+                        Bepul qatnashish
+                    </button>
+                    <img class="shaddow" style="bottom: -17px;" src="./images/shaddow.avif" loading="lazy"
+                        decoding="async" width="179" height="53" alt="shaddow">
+                </div>
+
+                <div class="timer">02:00</div>
+            </div>
+            <div class="describe container">
+                <h3 class="describe__title">bepul darsda siz:</h3>
+
+                <ul class="describe__nav">
+                    <li class="describe__item">
+                        <img src="./images/info/1.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Rus tilida <b>gapirtiradigan real <br> metodni</b> bilib olasiz va nihoyat <br> gapira
+                            boshlaysiz!</p>
+                    </li>
+                    <li class="describe__item">
+                        <img src="./images/info/2.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Qo‘shimchalarni adashtirmay, <br> ularni <b>razgovorda avtomatik <br> ishlatishni</b>
+                            o‘rganasiz</p>
+                    </li>
+                    <li class="describe__item">
+                        <img src="./images/info/3.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Dangasalikka STOP! So‘zlarni <b>tez <br> va oson yodlashni</b> boshlaysiz</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="webinar-cta" style="position: relative; margin-bottom: 40px; padding: 0 10px;">
+                <button class="event__btn" type="button">
+                    Bepul qatnashish
+                </button>
+                <img class="shaddow" style="transform: translateX(-50%); left: 50%; top: -28px;"
+                    src="./images/shaddow.avif" loading="lazy" decoding="async" width="179" height="53" alt="shaddow">
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <!-- ISM -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+                    <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
+                        autocomplete="name" />
+                    <p class="homeFormErrorText" id="nameError" style="display: none">
+                        ❌ Ismingizni kiriting!
+                    </p>
+                </div>
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer>
+       function startTimer(t,e){let n,r,a=t;const o=setInterval((function(){n=parseInt(a/60,10),r=parseInt(a%60,10),n=n<10?"0"+n:n,r=r<10?"0"+r:r,e.textContent=n+":"+r,--a<0&&(clearInterval(o),e.textContent="00:00",alert("Vaqt tugadi!"))}),1e3)}window.onload=function(){startTimer(120,document.querySelector(".timer"))};
+    </script>
+    <script defer src="../js/phoneFormatter.js"></script>
+    <script defer src="../js/app.js"></script>
+</body>
+
+
+</html>
