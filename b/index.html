@@ -49,7 +49,7 @@
         .hero__subtitle {
             font-family: "Big Shoulders Display", sans-serif;
             font-weight: 800;
-            font-size: clamp(17px, 4.1vw, 18px);
+            font-size: clamp(16px, 4.1vw, 18px);
             line-height: 120%;
             white-space: nowrap;
             letter-spacing: 1%;
@@ -72,7 +72,7 @@
         .hero__header-min p {
             font-family: Mulish, sans-serif;
             font-weight: 400;
-            font-size: clamp(11px, 3.9vw, 16px);
+            font-size: clamp(11px, 3.6vw, 16px);
             line-height: 100%;
         }
 
@@ -112,7 +112,7 @@
         .hero__item p {
             font-family: Mulish, sans-serif;
             font-weight: 400;
-            font-size: clamp(13.5px, 4.2vw, 16px);
+            font-size: clamp(12.5px, 4vw, 16px);
             line-height: 140%;
         }
 
@@ -156,17 +156,18 @@
             line-height: 120%;
         }
 
-        @media (max-width:380px) {
+        @media (max-width:400px) {
             .hero__images {
                 bottom: -300px;
             }
+            .hero__header {
+                margin-left: 10px;  
+            }
         }
 
-        @media (max-width:370px) {
-            .hero__top {
-                gap: 10px;
-            }
 
+        @media (max-width:370px) {
+         
             .hero__subtitle {
                 margin-left: -8px;
                 margin-top: 3px;
@@ -183,6 +184,14 @@
             .hero__images {
                 bottom: -300px;
             }
+        }
+        @media (max-width:340px) {
+            .hero__header {
+                padding-left: 15px;
+            }   .hero__top {
+                gap: 10px;
+            }
+
         }
     </style>
 
