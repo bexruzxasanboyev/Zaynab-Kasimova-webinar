@@ -6,88 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaynab Kasimova</title>
     <style>
-* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #ECE8E5;}.container {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: #FFFDF4;box-shadow: 0px 3px 4.6px 0px #00000017;border-radius: 4px 4px 20px 20px;padding: 17.5px 21px;display: flex;align-items: center;justify-content: space-between;gap: 12px;margin-bottom: 25px;min-width: 313px;max-width: 400px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {font-family: Poppins, sans-serif;color: #000;font-weight: 500;font-size: 16px;line-height: 100%;text-wrap: nowrap;}.header__time {font-family: Montserrat, sans-serif;font-weight: 700;font-size: 18px;line-height: 100%;text-align: center;}.title {font-family: "Kuunari", sans-serif;font-weight: 700;font-size: clamp(26px, 8vw, 33px);line-height: 125%;text-align: center;text-transform: uppercase;color: #181F2F;margin-bottom: 20px;width: 100%;}.title span {font-size: clamp(35px, 10.9vw, 46px);color: #C5392C;}.titles {color: #E60000;font-size: 55px;font-family: "Bebas Neue", sans-serif;font-weight: 400;line-height: 105%;text-align: center;text-transform: uppercase;}.text {font-family: Poppins, sans-serif;font-weight: 400;font-size: 16px;line-height: 130%;text-align: center;margin-bottom: 16px;}.text span {font-weight: 600;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.expert__img {object-fit: contain;max-width: 357px;width: 100%;height: auto;margin-bottom: -40px;}.event__btn {cursor: pointer;max-width: 345px;text-decoration: none;width: 100%;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background-color: #C5392C;box-shadow: 0px 6px 0px 0px #8A1E14;border-radius: 100px;padding: 20px;height: 73px;padding-bottom: 14px;z-index: 20;font-family: "Bebas Neue", sans-serif;color: white;font-weight: 400;font-size: 32px;line-height: 100%;text-align: center;text-transform: uppercase;}.timer__box {font-family: Kuunari, sans-serif;padding-top: 28px;font-weight: 700;font-size: 38px;margin-bottom: 23px;line-height: 100%;text-transform: uppercase;}@media (max-width:450px) {.text {font-size: 14px;}}@media (max-width:355px) {.event__btn {font-size: 29px;}.text {font-size: 13px;}}
+   * { margin: 0; padding: 0; box-sizing: border-box; } body { background-color: black; } html, body { overflow-x: hidden; } .container { max-width: 440px; width: 100%; margin: 0 auto; padding: 0 10px; padding-top: 18px; } #main-content { position: relative; } .header { border: 1px solid #FFFFFF; border-radius: 7px; padding: 7px 10px; font-family: Inter, sans-serif; max-width: 181px; width: 100%; margin-right: auto; margin-left: auto; position: relative; z-index: 10; font-weight: 500; font-size: 14px; line-height: 100%; text-align: center; margin-bottom: 16px; } .header__box { display: flex; align-items: center; justify-content: center; gap: 5px; } .header__text { font-family: Inter, sans-serif; font-weight: 500; font-size: 14px; line-height: 100%; text-align: center; color: white; } .title { font: 600 clamp(40px, 12.9vw, 54px) / 110% "Zuume", sans-serif; text-transform: uppercase; color: white; position: relative; z-index: 1; text-align: center; margin-bottom: 8px; } .title span { color: #E82C2C; } .expert__img { object-fit: contain; max-width: clamp(275px, 80vw, 342px); width: 100%; height: auto; position: relative; z-index: 15; display: flex; flex-direction: column; align-items: center; margin: 0 auto; } .hero__flag { position: absolute; top: 220px; height: auto; z-index: 1; left: 50%; transform: translateX(-50%); } .gradinet { max-width: 213px; width: 100%; height: 213px; background-color: #FF2C2C99; position: absolute; top: 480px; z-index: 10; left: 44%; transform: translateY(-44%); filter: blur(60px) } .speaker__bg { background-image: url(./images/bg.avif); background-repeat: no-repeat; background-position: center; background-size: cover; max-width: 430px; width: 100%; height: clamp(600px, 172vw, 698px); position: absolute; top: 0; left: 50%; transform: translateX(-50%); } .timer { font-family: Zuume, sans-serif; font-weight: 600; font-size: 54px; line-height: 110%; text-transform: uppercase; margin-bottom: 4px; padding-top: 24px; text-align: center; color: white; } .event__btn { background: linear-gradient(90deg, #FF2C2C 0%, #FF5B5B 50%, #FF2C2C 100%); box-shadow: 0px 4px 0px 0px #FF2323; box-shadow: 0px 2px 3px 1px #FFFFFF40 inset; border-radius: 12px; border: none; cursor: pointer; max-width: 388px; width: 100%; padding: 35px 0; display: flex; align-items: center; justify-content: center; font-family: Zuume, sans-serif; font-weight: 700; font-size: clamp(30px, 9vw, 38px); line-height: 100%; letter-spacing: 10%; color: white; margin-left: auto; margin-right: auto; margin-top: -5px; position: relative; z-index: 21; margin-bottom: 5px; } .speaker__images { max-width: 325px; width: 100%; height: auto; } .event__btn img { margin-top: -4px; } .shaddow { position: absolute; z-index: 20; left: 53%; transform: translateX(-53%); max-width: 179px; height: auto; top: -30px; } @media (max-width:400px) { .gradinet { left: 28%; height: 150px; transform: translateY(-44%); } .hero__flag { top: 180px; } }
     </style>
-    
-    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
     <noscript>
-        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/modal.css" />
     </noscript>
     <meta name="facebook-domain-verification" content="25ak68llwfgy3v9qy2nuqoq2vaekhg" />
-</head>
-
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="header">
-                <div class="header__box">
-                    <img src="./images/calendar.png" alt="kalendar belgisi" style="margin-top: -3px;"
-                        class="header__text__img" width="18" height="18" loading="lazy" decoding="async">
+    <main id="main-content">
+        <div class="wrapper">
+            <div class="container">
+                <div class="header">
                     <p class="header__text">
-                        31-mart, 1,2-aprel
+                        31-mart, 1,2-aprel 20:30
                     </p>
                 </div>
-                <p class="header__time">20:30</p>
+                <h1 class="title">
+                    <span>0 dan razgovorgacha</span> <br>
+                    rus tilida gapirishning <br> 7 ta texnikasi
+                </h1>
+
+                <img src="./images/speaker.avif" alt="Investor rasmi" class="expert__img" decoding="async"
+                    loading="lazy" width="342" height="336">
+                <img class="hero__flag" src="./images/flag.avif" loading="lazy" decoding="async" width="638"
+                    height="383" alt="flag">
+                <div class="gradinet"></div>
+                <div class="speaker__bg"></div>
+
+                <div class="webinar-cta" style="position: relative;">
+                    <button class="event__btn" type="button">
+                        Bepul qatnashish
+                    </button>
+                    <img class="shaddow" style="bottom: -17px;" src="./images/shaddow.avif" loading="lazy"
+                        decoding="async" width="179" height="53" alt="shaddow">
+                </div>
+
+                <div class="timer">02:00</div>
+            </div>
+            <div class="describe container">
+                <h3 class="describe__title">bepul darsda siz:</h3>
+
+                <ul class="describe__nav">
+                    <li class="describe__item">
+                        <img src="./images/info/1.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Rus tilida <b>gapirtiradigan real <br> metodni</b> bilib olasiz va nihoyat <br> gapira
+                            boshlaysiz!</p>
+                    </li>
+                    <li class="describe__item">
+                        <img src="./images/info/2.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Qo‘shimchalarni adashtirmay, <br> ularni <b>razgovorda avtomatik <br> ishlatishni</b>
+                            o‘rganasiz</p>
+                    </li>
+                    <li class="describe__item">
+                        <img src="./images/info/3.avif" loading="lazy" decoding="async" width="149" height="149"
+                            alt="images">
+                        <p>Dangasalikka STOP! So‘zlarni <b>tez <br> va oson yodlashni</b> boshlaysiz</p>
+                    </li>
+                </ul>
             </div>
 
-            <h1 class="title">
-                <span>0 dan razgavorgacha</span> <br>
-                Rus tilida gapirishning 7 ta <br> texnikasini o’rganing
-            </h1>
-
-            <img src="./images/speaker.avif" alt="Zaynab Kasimova" class="expert__img minifyImg" decoding="async"
-                loading="lazy" width="333" height="317">
-
-            <button class="event__btn webinar-cta">
-                bepul qatnashish >>>
-            </button>
-
-            <p class="timer__box" id="timer">02:00</p>
-
-            <h2 class="event__list__title">Bepul darsda siz:</h2>
-            <ul class="event__list">
-                <li class="event__list__item">
-                    <div class="event__list__item__number">
-                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
-                            loading="lazy">
-                    </div>
-                    <p class="event__list__item__text">
-                        Rus tilida <span>gapirtiradigan real <br> metodni</span> bilib olasiz va nihoyat <br> gapira
-                        boshlaysiz!
-                    </p>
-                </li>
-                <li class="event__list__item">
-                    <div class="event__list__item__number">
-                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
-                            loading="lazy">
-                    </div>
-                    <p class="event__list__item__text">
-                        Qo‘shimchalarni adashtirmay, <br> ularni <span>razgovorda avtomatik <br> ishlatishni</span>
-                        o‘rganasiz
-                    </p>
-                </li>
-                <li class="event__list__item">
-                    <div class="event__list__item__number">
-                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
-                            loading="lazy">
-                    </div>
-                    <p class="event__list__item__text">
-                        Dangasalikka STOP! So‘zlarni <span>tez <br> va oson yodlashni</span> boshlaysiz
-                    </p>
-                </li>
-            </ul>
-
-            <button class="event__btn webinar-cta" style="margin-bottom: 30px;">
-                bepul qatnashish >>>
-            </button>
+            <div class="webinar-cta" style="position: relative; margin-bottom: 40px; padding: 0 10px;">
+                <button class="event__btn" type="button">
+                    Bepul qatnashish
+                </button>
+                <img class="shaddow" style="transform: translateX(-50%); left: 50%; top: -28px;"
+                    src="./images/shaddow.avif" loading="lazy" decoding="async" width="179" height="53" alt="shaddow">
+            </div>
         </div>
-    </div>
+    </main>
+
 
     <!-- Modal -->
     <div id="registrationModal" class="homeModal" style="display: none">
         <div class="homeModalOverlay"></div>
         <div class="homeFormContainer">
-            <button class="closeButton" id="closeModalBtn">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
                     <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
                         stroke-linecap="round" />
@@ -95,7 +91,7 @@
             </button>
             <div class="homeFormTop">
                 <h1 class="homeFormTopTitle">
-                    Ro'yxatdan o'tish uchun ma'lumotlaringizni kiriting!
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
                 </h1>
             </div>
             <form id="registrationForm" name="contact-form">
@@ -142,7 +138,6 @@
                     </p>
                 </div>
 
-
                 <button type="submit" class="HomeFormBtn" id="submitBtn">
                     DAVOM ETISH
                 </button>
@@ -151,10 +146,13 @@
         </div>
     </div>
 
-    <script defer src="./js/phoneFormatter.js"></script>
-    <script defer src="./js/app.js"></script>
+    <script defer>
+        function startTimer(t, e) { let n, r, a = t; const o = setInterval((function () { n = parseInt(a / 60, 10), r = parseInt(a % 60, 10), n = n < 10 ? "0" + n : n, r = r < 10 ? "0" + r : r, e.textContent = n + ":" + r, --a < 0 && (clearInterval(o), e.textContent = "00:00", alert("Vaqt tugadi!")) }), 1e3) } window.onload = function () { startTimer(120, document.querySelector(".timer")) };
+    </script>
+    <script defer src="../js/phoneFormatter.js"></script>
+    <script defer src="../js/app.js"></script>
 
-    <!-- Meta Pixel Code -->
+       <!-- Meta Pixel Code -->
 <script defer>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -172,5 +170,6 @@
     /></noscript>
     <!-- End Meta Pixel Code -->
 </body>
+
 
 </html>
