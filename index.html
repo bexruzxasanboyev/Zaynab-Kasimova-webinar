@@ -1,41 +1,214 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
-  <meta charset="UTF-8" />
-  <!-- Instant PageView pixel — fires immediately, no JS needed -->
-  <img src="https://www.facebook.com/tr?id=1706828529764569&ev=PageView&noscript=1" width="1" height="1"
-    style="position:absolute;top:-1px;left:-1px" alt="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Obuna Bo'lish</title>
-  <style>
-* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #ECE8E5;}.container {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: #FFFDF4;box-shadow: 0px 3px 4.6px 0px #00000017;border-radius: 4px 4px 20px 20px;padding: 17.5px 21px;display: flex;align-items: center;justify-content: space-between;gap: 12px;margin-bottom: 25px;min-width: 313px;max-width: 400px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {font-family: Poppins, sans-serif;color: #000;font-weight: 500;font-size: 16px;line-height: 100%;text-wrap: nowrap;}.header__time {font-family: Montserrat, sans-serif;font-weight: 700;font-size: 18px;line-height: 100%;text-align: center;}.title {font-family: "Kuunari", sans-serif;font-weight: 700;font-size: clamp(26px, 8vw, 33px);line-height: 125%;text-align: center;text-transform: uppercase;color: #181F2F;margin-bottom: 20px;width: 100%;}.title span {font-size: clamp(35px, 10.9vw, 46px);color: #C5392C;}.titles {color: #E60000;font-size: 55px;font-family: "Bebas Neue", sans-serif;font-weight: 400;line-height: 105%;text-align: center;text-transform: uppercase;}.text {font-family: Poppins, sans-serif;font-weight: 400;font-size: 16px;line-height: 130%;text-align: center;margin-bottom: 16px;}.text span {font-weight: 600;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.expert__img {object-fit: contain;max-width: 357px;width: 100%;height: auto;margin-bottom: -40px;}.event__btn {cursor: pointer;max-width: 345px;text-decoration: none;width: 100%;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background-color: #C5392C;box-shadow: 0px 6px 0px 0px #8A1E14;border-radius: 100px;padding: 20px;height: 73px;padding-bottom: 14px;z-index: 20;font-family: "Bebas Neue", sans-serif;color: white;font-weight: 400;font-size: 32px;line-height: 100%;text-align: center;text-transform: uppercase;}.timer__box {font-family: Kuunari, sans-serif;padding-top: 28px;font-weight: 700;font-size: 38px;margin-bottom: 23px;line-height: 100%;text-transform: uppercase;}@media (max-width:450px) {.text {font-size: 14px;}}@media (max-width:355px) {.event__btn {font-size: 29px;}.text {font-size: 13px;}}
-  </style>
-  <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="./css/main.css" />
-  </noscript>
-  <link rel="preconnect" href="https://connect.facebook.net" />
-  <link rel="preconnect" href="https://www.facebook.com" />
-  <meta name="facebook-domain-verification" content="25ak68llwfgy3v9qy2nuqoq2vaekhg" />
-  <!-- Meta Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1706828529764569');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1706828529764569&ev=PageView&noscript=1" /></noscript>
+    <meta charset="UTF-8" />
+    <!-- Instant PageView pixel — fires immediately, no JS needed -->
+    <img src="https://www.facebook.com/tr?id=1706828529764569&ev=PageView&noscript=1" width="1" height="1"
+        style="position:absolute;top:-1px;left:-1px" alt="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obuna Bo'lish</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-color: #ECE8E5;
+        }
+
+        .container {
+            max-width: 440px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 10px;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #FFFDF4;
+            box-shadow: 0px 3px 4.6px 0px #00000017;
+            border-radius: 4px 4px 20px 20px;
+            padding: 17.5px 21px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 25px;
+            min-width: 313px;
+            max-width: 400px;
+        }
+
+        .header__box {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header__text {
+            font-family: Poppins, sans-serif;
+            color: #000;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            text-wrap: nowrap;
+        }
+
+        .header__time {
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 100%;
+            text-align: center;
+        }
+
+        .title {
+            font-family: "Kuunari", sans-serif;
+            font-weight: 700;
+            font-size: clamp(25px, 7.9vw, 33px);
+            line-height: 125%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #181F2F;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .title span {
+            color: #C5392C;
+        }
+
+        .titles {
+            color: #E60000;
+            font-size: 55px;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            line-height: 105%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .text {
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .text span {
+            font-weight: 600;
+        }
+
+        .center {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .expert__img {
+            object-fit: contain;
+            max-width: 357px;
+            width: 100%;
+            height: auto;
+            margin-bottom: -40px;
+        }
+
+        .event__btn {
+            cursor: pointer;
+            max-width: 345px;
+            text-decoration: none;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            background-color: transparent;
+            position: relative;
+            background-color: #C5392C;
+            box-shadow: 0px 6px 0px 0px #8A1E14;
+            border-radius: 100px;
+            padding: 20px;
+            height: 73px;
+            padding-bottom: 14px;
+            z-index: 20;
+            font-family: "Bebas Neue", sans-serif;
+            color: white;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .timer__box {
+            font-family: Kuunari, sans-serif;
+            padding-top: 28px;
+            font-weight: 700;
+            font-size: 38px;
+            margin-bottom: 23px;
+            line-height: 100%;
+            text-transform: uppercase;
+        }
+
+        @media (max-width:450px) {
+            .text {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width:355px) {
+            .event__btn {
+                font-size: 29px;
+            }
+
+            .text {
+                font-size: 13px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+    <link rel="preconnect" href="https://connect.facebook.net" />
+    <link rel="preconnect" href="https://www.facebook.com" />
+    <meta name="facebook-domain-verification" content="25ak68llwfgy3v9qy2nuqoq2vaekhg" />
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1706828529764569');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1706828529764569&ev=PageView&noscript=1" /></noscript>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="container">
@@ -51,14 +224,13 @@
             </div>
 
             <h1 class="title">
-                <span>0 dan razgavorgacha</span> <br>
-                Rus tilida gapirishning 7 ta <br> texnikasini o’rganing
+                Bu 7 ta texnikam 3 kunda sizni <span>rus tilida oson gapirtiradi</span>
             </h1>
             <img src="./images/speaker.avif" alt="Zaynab Kasimova" class="expert__img minifyImg" decoding="async"
                 loading="lazy" width="333" height="317">
 
             <button class="event__btn webinar-cta">
-                bepul qatnashish >>>
+                bepul qatnashish >>></button>
             </button>
             <p class="timer__box" id="timer">02:00</p>
 
@@ -70,7 +242,8 @@
                             loading="lazy">
                     </div>
                     <p class="event__list__item__text">
-                        Rus tilida <span class="webinar-cta">gapirtiradigan real <br> metodni</span> bilib olasiz va nihoyat <br> gapira
+                        Rus tilida <span class="webinar-cta">gapirtiradigan real <br> metodni</span> bilib olasiz va
+                        nihoyat <br> gapira
                         boshlaysiz!
                     </p>
                 </li>
@@ -80,7 +253,8 @@
                             loading="lazy">
                     </div>
                     <p class="event__list__item__text">
-                        Qo‘shimchalarni adashtirmay, <br> ularni <span class="webinar-cta">razgovorda avtomatik <br> ishlatishni</span>
+                        Qo‘shimchalarni adashtirmay, <br> ularni <span class="webinar-cta">razgovorda avtomatik <br>
+                            ishlatishni</span>
                         o‘rganasiz
                     </p>
                 </li>
@@ -90,7 +264,8 @@
                             loading="lazy">
                     </div>
                     <p class="event__list__item__text">
-                        Dangasalikka STOP! So‘zlarni <span class="webinar-cta">tez <br> va oson yodlashni</span> boshlaysiz
+                        Dangasalikka STOP! So‘zlarni <span class="webinar-cta">tez <br> va oson yodlashni</span>
+                        boshlaysiz
                     </p>
                 </li>
             </ul>
@@ -171,4 +346,5 @@
     <script defer src="./js/phoneFormatter.js"></script>
     <script defer src="./js/app.js"></script>
 </body>
+
 </html>
